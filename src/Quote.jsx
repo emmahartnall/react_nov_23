@@ -6,7 +6,8 @@ import CostSummary from "./components/CostSummary";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./css/App.css";
-
+import "./css/quoteClasses.css";
+import "./css/standardElements.css";
 
 const App = () => {
   const [projectDetails, setProjectDetails] = useState({});
@@ -31,17 +32,21 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      <h1>Estimated cost of your web application development</h1>
-      <ProjectDetailsForm setProjectDetails={setProjectDetails} />
-      <FeatureSelection
-        selectedFeatures={selectedFeatures}
-        setSelectedFeatures={setSelectedFeatures}
-      />
-      <CostSummary
-        projectDetails={projectDetails}
-        selectedFeatures={selectedFeatures}
-        totalCost={calculateTotalCost()}
-      />
+      <main>
+        <div class="content">
+          <ProjectDetailsForm setProjectDetails={setProjectDetails} />
+          <FeatureSelection
+            selectedFeatures={selectedFeatures}
+            setSelectedFeatures={setSelectedFeatures}
+          />
+          <CostSummary
+            projectDetails={projectDetails}
+            selectedFeatures={selectedFeatures}
+            totalCost={calculateTotalCost()}
+          />
+        </div>
+      </main>
+      
       <Footer />
     </div>
   );

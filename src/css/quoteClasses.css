@@ -1,0 +1,29 @@
+
+
+.content {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-size: 4vh;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.footer {
+    text-align: center;
+    color: aliceblue;
+}
+
+.header-center {
+    text-align: center;
+}

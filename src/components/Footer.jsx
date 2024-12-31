@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2024 Web Application Quoting Tool. All rights reserved.</p>
+      <p>Copyright 2024 Hartnall Digital Solutions. All rights reserved.   ABN: 58 764 846 959&nbsp;</p>
     </footer>
   );
 };
