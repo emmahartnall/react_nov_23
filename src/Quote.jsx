@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import ProjectDetailsForm from "./components/ProjectDetailsForm";
 import FeatureSelection from "./components/FeatureSelection";
 import CostSummary from "./components/CostSummary";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import "./css/App.css";
+
 
 const App = () => {
   const [projectDetails, setProjectDetails] = useState({});
@@ -26,7 +30,8 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Web Application Quoting Tool</h1>
+      <Header />
+      <h1>Estimated cost of your web application development</h1>
       <ProjectDetailsForm setProjectDetails={setProjectDetails} />
       <FeatureSelection
         selectedFeatures={selectedFeatures}
@@ -37,6 +42,7 @@ const App = () => {
         selectedFeatures={selectedFeatures}
         totalCost={calculateTotalCost()}
       />
+      <Footer />
     </div>
   );
 };
