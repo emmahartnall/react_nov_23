@@ -9,8 +9,11 @@ body {
     flex-direction: column;
     height: 100vh; /* Full viewport height */
     font-family: Arial, sans-serif;
+    background-image: url('../images/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    
 }
-
 
 footer {
     background-color: rgba(4, 45, 26, 0.899);
@@ -39,7 +42,7 @@ header {
 
 main {
     flex: 1; /* Fill the space between header and footer */
-    margin-top: 20%; /* Adjust based on header height */
-    margin-bottom: 5%; /* Adjust based on footer height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    margin-top: 10%; /* Adjust based on header height */
+    margin-bottom: 2%; /* Adjust based on footer height */
+    overflow-y: auto; /* Enable vertical scrolling */ 
 }

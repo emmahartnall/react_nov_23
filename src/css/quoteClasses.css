@@ -27,3 +27,11 @@
 .header-center {
     text-align: center;
 }
+
+.transparent-section{
+    margin:2%;
+    padding: 2%;
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.8;
+}
