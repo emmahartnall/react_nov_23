@@ -12,7 +12,15 @@ body {
     background-image: url('../images/Background.jpg');
     background-size: cover;
     background-position: center;
-    
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 footer {
@@ -28,6 +36,21 @@ footer {
     color: aliceblue;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
 header {
     background-color: rgba(4, 45, 26, 0.899);
     padding: 10px;
@@ -40,24 +63,7 @@ header {
     color: aliceblue;
 }
 
-main {
-    flex: 1; /* Fill the space between header and footer */
-    margin-top: 10%; /* Adjust based on header height */
-    margin-bottom: 2%; /* Adjust based on footer height */
-    overflow-y: auto; /* Enable vertical scrolling */ 
-}
-
-h2 {
-    margin-bottom: 20px;
-  }
-
-  label {
-    margin-bottom: 5px;
-    display: block;
-    font-weight: bold;
-  }
-
-  input[type="text"],
+input[type="text"],
   textarea {
     width: 100%;
     padding: 10px;
@@ -65,17 +71,22 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
-  }
+}
 
-  textarea {
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+main {
+    flex: 1; /* Fill the space between header and footer */
+    margin-top: 10%; /* Adjust based on header height */
+    margin-bottom: 2%; /* Adjust based on footer height */
+    overflow-y: auto; /* Enable vertical scrolling */ 
+}
+
+textarea {
     height: 100px;
-  }
+}
 
-  button {
-    background-color: #4CAF50; /* Green */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }

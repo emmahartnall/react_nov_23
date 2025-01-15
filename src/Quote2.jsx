@@ -54,11 +54,7 @@ const Quote = () => {
             </DescriptionMethodology>
 
             <RequirementsForm setRequirements={setRequirements} />
-            <ProjectDetailsForm setProjectDetails={setProjectDetails} />
-            <FeatureSelection
-              selectedFeatures={selectedFeatures}
-              setSelectedFeatures={setSelectedFeatures}
-            />
+            
             <CostSummary
               projectDetails={projectDetails}
               selectedFeatures={selectedFeatures}

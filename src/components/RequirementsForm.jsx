@@ -9,9 +9,9 @@ const RequirementsForm = ({ setRequirements }) => {
 
   return (
     <form className="requirements-form">
-      <h2>Please enter you project requirements</h2>
+      <h2>Please enter you Project Requirements</h2>
       <label>
-        App Type:
+        Please provide a short description of your project:
         <input
           type="text"
           name="appType"
