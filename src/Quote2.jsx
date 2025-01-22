@@ -1,7 +1,5 @@
 // Quote2.jsx
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from './components/Nav';
 import RequirementsForm from "./components/RequirementsForm";
 import Heading from "./components/Heading";
 import DescriptionMethodology from "./components/DescriptionMethodology";
