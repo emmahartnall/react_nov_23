@@ -1,10 +1,10 @@
 // Quote2.jsx
 import React, { useState } from "react";
-import ProjectDetailsForm from "./components/ProjectDetailsForm";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav';
 import RequirementsForm from "./components/RequirementsForm";
 import Heading from "./components/Heading";
 import DescriptionMethodology from "./components/DescriptionMethodology";
-import FeatureSelection from "./components/FeatureSelection";
 import CostSummary from "./components/CostSummary";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
