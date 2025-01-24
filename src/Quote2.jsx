@@ -4,6 +4,7 @@ import ProjectDetailsForm from "./components/ProjectDetailsForm";
 import FeatureSelection from "./components/FeatureSelection";
 import CostSummary from "./components/CostSummary";
 import Header from "./components/Header";
+import Heading from "./components/Heading";
 import Footer from "./components/Footer";
 import "./css/App.css";
 import "./css/quoteClasses.css";
@@ -35,6 +36,7 @@ const Quote = () => {
       <main>=
         <section class="transparent-section">
           <div class="content">
+          <heading>Price Estimation Tool for your Web Application</heading>
            
             <ProjectDetailsForm setProjectDetails={setProjectDetails} />
             <FeatureSelection
