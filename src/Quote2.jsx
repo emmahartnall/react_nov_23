@@ -36,7 +36,7 @@ const Quote = () => {
       <main>=
         <section class="transparent-section">
           <div class="content">
-          <heading>Price Estimation Tool for your Web Application</heading>
+          <Heading>Price Estimation Tool for your Web Application</Heading>
            
             <ProjectDetailsForm setProjectDetails={setProjectDetails} />
             <FeatureSelection
