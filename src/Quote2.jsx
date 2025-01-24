@@ -1,7 +1,5 @@
 // Quote2.jsx
 import React, { useState } from "react";
-import RequirementsForm from "./components/RequirementsForm";
-import Heading from "./components/Heading";
 import ProjectDetailsForm from "./components/ProjectDetailsForm";
 import FeatureSelection from "./components/FeatureSelection";
 import CostSummary from "./components/CostSummary";
